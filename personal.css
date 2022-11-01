@@ -2,6 +2,7 @@ body {
   margin: 0 10rem;
   padding: 0;
   color: #696969;
+  background-color: #faffff;
 }
 
 /* Images and logo */
@@ -32,10 +33,29 @@ img {
 
 .top-main {
   margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
 }
 
+.headshot {
+  border-radius: 50%;
+}
+
+.top-main p {
+  font-size: 1.5rem;
+}
+
+.top-main h1 {
+  font-size: 3rem;
+  color: #00008b;
+}
+
+span {
+  font-style: italic;
+  color: #696969;
+}
 h2 {
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
 }
 
@@ -63,6 +83,7 @@ h2 {
   border: 2px solid whitesmoke;
   cursor: pointer;
   color: black;
+  text-align: center;
 }
 
 .main-section button:hover {
@@ -79,4 +100,17 @@ a {
 .header-nav:hover {
   color: black;
   text-shadow: 5px 5px 5px whitesmoke;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  font-weight: 100;
+  font-size: 0.7rem;
 }
