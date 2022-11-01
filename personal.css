@@ -98,8 +98,10 @@ a {
 }
 
 .header-nav:hover {
-  color: black;
+  color: #00008b;
   text-shadow: 5px 5px 5px whitesmoke;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 h4 {
