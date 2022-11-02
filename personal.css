@@ -116,3 +116,20 @@ h4 {
   font-weight: 100;
   font-size: 0.7rem;
 }
+
+@media (max-width: 480px) {
+  body {
+    margin: 0 2rem;
+  }
+  .top-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .headshot {
+    margin-top: 3rem;
+  }
+}
