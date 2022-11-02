@@ -141,3 +141,41 @@ hr {
 .lobster-font {
   font-family: "Lobster", cursive;
 }
+
+@media (max-width: 480px) {
+  body {
+    margin: 0 2rem;
+  }
+  .header-logo,
+  .main-social-media img {
+    width: 1.5rem;
+  }
+  .header-links {
+    width: 10rem;
+  }
+  .header-links p {
+    font-size: 1.2rem;
+  }
+  .main-social-media {
+    display: flex;
+    justify-content: end;
+  }
+  .main-social-media img {
+    padding: 0.5rem;
+  }
+  .headshot {
+    width: 20rem;
+  }
+  .main-bottom-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-section {
+    order: 1;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .bottom-text-p {
+    order: 2;
+  }
+}
