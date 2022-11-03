@@ -1,0 +1,94 @@
+@import "personal-media.css";
+@import "personal-images.css";
+@import "personal-card.css";
+
+body {
+  margin: 0 10rem;
+  padding: 0;
+  color: #696969;
+  background-color: #faffff;
+}
+
+/* Layout */
+header {
+  display: flex;
+  max-width: 300px;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.top-main {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-main p {
+  font-size: 1.5rem;
+}
+
+.top-main h1 {
+  font-size: 3rem;
+  color: #00008b;
+}
+
+span {
+  font-style: italic;
+  color: #696969;
+}
+h2 {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.main-section img {
+  border-radius: 10px;
+}
+
+.main-section button {
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #dff7fa;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+}
+
+.main-section button:hover {
+  background-color: #abd1f3;
+  color: black;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-nav:hover {
+  color: #00008b;
+  text-shadow: 5px 5px 5px whitesmoke;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  font-weight: 100;
+  font-size: 0.7rem;
+}

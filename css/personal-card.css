@@ -1,0 +1,6 @@
+.blog-card {
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px 5px whitesmoke;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+}
