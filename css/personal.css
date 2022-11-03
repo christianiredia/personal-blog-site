@@ -33,6 +33,11 @@ header {
   color: #00008b;
 }
 
+.top-main-quote {
+  width: 100%;
+  max-width: 350px;
+}
+
 span {
   font-style: italic;
   color: #696969;
@@ -91,4 +96,9 @@ footer {
   padding: 3rem 0;
   font-weight: 100;
   font-size: 0.7rem;
+}
+
+.top-main-quote p {
+  font-size: 1rem;
+  color: #696969;
 }
