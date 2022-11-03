@@ -1,0 +1,20 @@
+/* Images and logo */
+.header-logo {
+  max-width: 45px;
+}
+
+img {
+  max-width: 250px;
+}
+
+.blog-photo {
+  max-width: 0.8rem;
+}
+
+.main-section {
+  font-family: "Indie Flower", cursive;
+}
+
+.headshot {
+  border-radius: 50%;
+}

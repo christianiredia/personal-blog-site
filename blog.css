@@ -6,14 +6,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-.header-logo {
-  width: 45px;
-}
-
-.main-social-media img {
-  width: 50px;
-}
-
 .header {
   display: flex;
 
@@ -52,6 +44,7 @@ h1 {
   display: flex;
   justify-content: start;
 }
+
 .main-intro p {
   margin: 0;
   font-size: 1rem;
@@ -62,40 +55,9 @@ h1 {
   color: #00008b;
 }
 
-.profile-logo {
-  width: 3.5rem;
-}
-
 .main-top-text {
   display: flex;
   justify-content: space-between;
-}
-
-.main-social-media img {
-  width: 2rem;
-  padding: 1rem;
-}
-
-.main-social-media img:hover {
-  opacity: 0.1;
-  cursor: pointer;
-}
-
-.headshot-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-figcaption {
-  font-style: italic;
-}
-
-.headshot {
-  width: 400px;
-  border-radius: 50%;
-  margin-top: 4rem;
 }
 
 hr {
@@ -104,8 +66,7 @@ hr {
 
 .main-bottom-text {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  /* grid-gap: 2rem; */
+  grid-template-rows: 1fr;
   margin-top: 5rem;
   justify-content: center;
   align-items: center;
@@ -115,12 +76,16 @@ hr {
 .about-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+  margin-bottom: 5rem;
 }
 
 .bottom-text-p {
   width: 100%;
   margin: 0 auto;
+  order: 2;
 }
 
 .bold {
@@ -140,42 +105,4 @@ hr {
 /* Font Styles */
 .lobster-font {
   font-family: "Lobster", cursive;
-}
-
-@media (max-width: 480px) {
-  body {
-    margin: 0 2rem;
-  }
-  .header-logo,
-  .main-social-media img {
-    width: 1.5rem;
-  }
-  .header-links {
-    width: 10rem;
-  }
-  .header-links p {
-    font-size: 1.2rem;
-  }
-  .main-social-media {
-    display: flex;
-    justify-content: end;
-  }
-  .main-social-media img {
-    padding: 0.5rem;
-  }
-  .headshot {
-    width: 20rem;
-  }
-  .main-bottom-text {
-    display: flex;
-    flex-direction: column;
-  }
-  .about-section {
-    order: 1;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-  .bottom-text-p {
-    order: 2;
-  }
 }

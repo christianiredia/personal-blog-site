@@ -1,0 +1,46 @@
+/* Layout on smaller screens */
+@media (max-width: 600px) {
+  body {
+    margin: 0 2rem;
+  }
+
+  .header-logo {
+    width: 1.5rem;
+  }
+
+  .main-social-media img {
+    width: 1.5rem;
+  }
+
+  .header-links {
+    width: 10rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .main-top-text {
+    justify-content: center;
+  }
+
+  .about-section {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .bottom-text-p {
+    order: 2;
+  }
+
+  .main-bottom-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  hr {
+    margin-bottom: 2.5rem;
+  }
+}
