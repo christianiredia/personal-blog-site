@@ -1,13 +1,16 @@
-@import "blog-media.css";
+@import "blog-layout-reset.css";
 @import "blog-images.css";
 @import "blog-font.css";
 
 body {
-  margin: 0 10rem;
-  padding: 0;
   color: #696969;
   background-color: #faffff;
   font-family: "Playfair Display", serif;
+}
+
+.container {
+  max-width: 480px;
+  padding: 0 1.5rem;
 }
 
 header {
@@ -15,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .header-nav:hover {
@@ -27,7 +30,7 @@ header {
 
 .header-links {
   display: flex;
-  width: 300px;
+  width: 10rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -39,7 +42,15 @@ a {
 
 h1 {
   margin-top: 6rem;
+  margin-bottom: 2rem;
   font-size: 3rem;
+}
+
+.main-top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-intro {
@@ -58,13 +69,9 @@ h1 {
   color: #00008b;
 }
 
-.main-top-text {
-  display: flex;
-  justify-content: space-between;
-}
-
 hr {
   border: 0.1px solid whitesmoke;
+  margin: 2rem 0;
 }
 
 .main-bottom-text {
