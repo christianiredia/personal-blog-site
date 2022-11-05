@@ -1,6 +1,6 @@
 /* Images and logo */
 .header-logo {
-  max-width: 45px;
+  max-width: 1.5rem;
 }
 
 img {
@@ -17,4 +17,5 @@ img {
 
 .headshot {
   border-radius: 50%;
+  width: 9rem;
 }
