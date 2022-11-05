@@ -103,6 +103,10 @@ hr {
   color: #00008b;
 }
 
+.bigger-font {
+  font-size: 1.5rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -110,4 +114,36 @@ footer {
   padding: 3rem 0;
   font-weight: 100;
   font-size: 0.7rem;
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .container {
+    max-width: 800px;
+    padding: 0 3rem;
+  }
+  .bottom-text-p p {
+    width: 35rem;
+  }
+  .bottom-text-p > em {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 801px) {
+  .container {
+    max-width: none;
+    padding: 0 5rem;
+  }
+  h1 {
+    margin-bottom: 5rem;
+  }
+  .headshot {
+    margin-top: 5rem;
+  }
+  .bottom-text-p p {
+    width: 35rem;
+  }
+  .bottom-text-p > em {
+    font-size: 5rem;
+  }
 }
