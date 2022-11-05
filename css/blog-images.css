@@ -2,17 +2,13 @@
   width: 45px;
 }
 
-.main-social-media img {
-  width: 50px;
-}
-
 .profile-logo {
   width: 3.5rem;
 }
 
 .main-social-media img {
-  width: 2rem;
-  padding: 1rem;
+  width: 1.5rem;
+  padding: 0.3rem;
 }
 
 .main-social-media img:hover {
