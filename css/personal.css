@@ -1,12 +1,6 @@
-@import "personal-media.css";
+@import "personal-layout-reset";
 @import "personal-images.css";
 @import "personal-card.css";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   color: #696969;
